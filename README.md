@@ -7,5 +7,5 @@ Part 2 :
 5. Training has been done on GPU
 6. Learning rate has been reduced a bit from the usual lr=0.01 to lr=0.006 to counter the random fluctuation in accuracy after 99%
 7. As per the problem statement, the total number of parameters of the network is 19,848 (< 20k) and the number of epochs trained is 19 (< 20 epochs)
-8. The final accuracy (at the end of 19th epoch ) is 99.24 % and the max accuracy achieved is 99.33 %
+8. The final accuracy (at the end of 19th epoch ) is 99.30 % 
 
