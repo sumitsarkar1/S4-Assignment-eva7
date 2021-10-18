@@ -9,7 +9,7 @@ Part 2 :
 3. Data Augmentation : Images in the training set are given random affine transforms of rotation and scaling. Random affine trasforms are followed by some brightness and contrast changes. Both these data augmentations help to make the network robust to affine and intensity changes in the images.
 4. Droput step is only used for the fully connected layer and not on CNN layers because CNN layers with dropout was giving a regularisation effect on the network and the network was not able to achieve higher accuracy in 19 epochs.
 5. Training has been done on GPU
-6. Learning rate has been reduced a bit from the usual lr=0.01 to lr=0.008 to counter the random fluctuation in accuracy after 99%. 
+6. Learning rate has been reduced a bit from the usual lr=0.01 to lr=0.008 to counter the stochastic fluctuation in accuracy after 99%. 
 7. Momentum = 0.8
 8. Batch size of 32, 64, 128, 256 were experimented. Out of all batch size of 64 produced the optimum result i.e. achieving above 99% accuracy in less than 20 epochs
 9. As per the problem statement, the total number of parameters of the network is 19,848 (< 20k) and the number of epochs trained is 19 (< 20 epochs)
