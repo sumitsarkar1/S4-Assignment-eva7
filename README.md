@@ -1,4 +1,5 @@
 # S4-Assignment-eva7
+Part 1 : Exccel sheet has been uploaded
 Part 2 :
 1. The CNN Pipeline : The CNN Pipeline consists of 3 CNN layers each of 16, 32 and 50 channels respectively. Each channel has a BatchNormalization and MaxPooling step to it. Kernel size selected is 3x3 andpadding is set to 1 to preserve the resolution of the channels at each CNN layer. However the resolution is reduced using MaxPooling after each CNN layer.
 2. The Fully Connected layer : The output of the CNNN Pipeline is fed to a fully connected layer of 10 nodes followed by a Dropout step. 
