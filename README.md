@@ -4,7 +4,7 @@ Exccel sheet has been uploaded
 
 
 Part 2 :
-1. The CNN Pipeline : The CNN Pipeline consists of 3 CNN layers each of 16, 32 and 50 channels respectively. Each channel has a BatchNormalization and MaxPooling step to it. Kernel size selected is 3x3 and padding is set to 1 to preserve the resolution of the channels at each CNN layer. However the resolution is reduced using MaxPooling after each CNN layer.
+1. The CNN Pipeline : The CNN Pipeline consists of 3 CNN layers each of 16, 32 and 50 channels respectively. Each channel has a BatchNormalization, MaxPooling and Dropout step to it. Kernel size selected is 3x3 and padding is set to 1 to preserve the resolution of the channels at each CNN layer. However the resolution is reduced using MaxPooling after each CNN layer.
 2. The Fully Connected layer : The output of the CNN Pipeline is fed to a fully connected layer of 10 nodes. 
 3. Data Augmentation : Images in the training set are given random affine transforms of rotation and scaling. Random affine trasforms are followed by some brightness and contrast changes. Both these data augmentations help to make the network robust to affine and intensity changes in the images.
 4. Droput step is used at the end of all the CNN layers. Dropout values of 0.25 , 0.2, 0.1, 0.05, 0.01 has been experimented. 0.01 value helps in achieving test accuracies upto 99.30 % and more
