@@ -13,5 +13,5 @@ Part 2 :
 7. Momentum = 0.8
 8. Batch size of 32, 64, 128, 256 were experimented. Out of all batch size of 64 produced the optimum result i.e. achieving above 99% accuracy in less than 20 epochs
 9. As per the problem statement, the total number of parameters of the network is 19,848 (< 20k) and the number of epochs trained is 19 (< 20 epochs)
-10. The test accuracy for the last 3 epochs (of the all 19 epochs ) is above 99.30 %
+10. The average test accuracy for the last 4 epochs (of the all 19 epochs ) is 99.30 %
 
